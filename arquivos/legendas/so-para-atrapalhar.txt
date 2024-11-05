@@ -1,0 +1,4 @@
+Olá! Estou criando um arquivo com o Python!
+Escrevendo multiplas linhas
+em um arquivo de texto
+com Python
