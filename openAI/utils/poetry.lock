@@ -422,24 +422,7 @@ files = [
     {file = "typing_extensions-4.12.2.tar.gz", hash = "sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8"},
 ]
 
-[[package]]
-name = "utils"
-version = "0.1.0"
-description = ""
-optional = false
-python-versions = "^3.12"
-files = []
-develop = true
-
-[package.dependencies]
-openai = "^1.54.3"
-python-dotenv = "^1.0.1"
-
-[package.source]
-type = "directory"
-url = "../utils"
-
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "6cdad8e5cf9553c515a1797bd2ad071d0252cdf2a45517564608cfa59a7d070d"
+content-hash = "26e4c7ad04196116dcf5b61eed9337733ff9f3bc8bc6450e17d36b70276c3c01"

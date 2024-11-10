@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "chatagpt-basico"
+name = "utils"
 version = "0.1.0"
 description = ""
 authors = ["maryson011 <maryson011@gmail.com>"]
@@ -9,7 +9,7 @@ readme = "README.md"
 python = "^3.12"
 openai = "^1.54.3"
 python-dotenv = "^1.0.1"
-utils = {path="../utils", develop=true}
+
 
 [build-system]
 requires = ["poetry-core"]

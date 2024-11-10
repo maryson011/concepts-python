@@ -16,3 +16,19 @@ API de Chat
  - cd chatgpt-basico
  - poetry shell
  - poetry add openai
+
+ - cd ..
+ - poetry new utils
+ - cd utils
+ - poetry shell
+ - poetry add openai
+ - poetry add python-dotenv
+ - ---------
+ - delete poetry.lock
+ - pyproject.toml:
+    [tool.poetry.dependencies]
+    utils = {path="../utils", develop=true}
+ - exit
+ - cd chatgpt-basico
+ - poetry shell
+ - poetry install --no-root
