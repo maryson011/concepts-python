@@ -15,7 +15,12 @@ resposta = cliente.chat.completions.create(
             'role': 'user',
             'content': 'Me conte uma piada'
         }
-    ]
+    ],
+    # max_tokens = 20
+    # stop=['?', '\n']
+    n=3
 )
-texto_resposta = resposta.choices[0].message.content
-print(texto_resposta)
+
+for escolha in resposta.choices:
+    print(escolha.message.content)
+    print('='*50)

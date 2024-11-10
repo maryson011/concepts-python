@@ -15,7 +15,13 @@ resposta = cliente.chat.completions.create(
             'role': 'user',
             'content': 'Me conte uma piada'
         }
-    ]
+    ],
+    logprobs=True,
+    top_logprobs=3
 )
+
 texto_resposta = resposta.choices[0].message.content
 print(texto_resposta)
+
+with open('resposta.json', 'w') as f:
+    f.write(resposta.choices[0].to_json())
