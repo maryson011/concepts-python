@@ -12,4 +12,7 @@ Poetry
 
 API de Chat
  - gpt 3.5, gpt 4
- 
+ - poetry new chatgpt-basico
+ - cd chatgpt-basico
+ - poetry shell
+ - poetry add openai
