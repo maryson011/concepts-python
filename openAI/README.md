@@ -36,3 +36,15 @@ API de Chat
  Moderação
   - poetry new moderacao
   - pyproject.toml -> utils = {path"../utils", develop=true}
+
+Voz
+ - poetry new voz
+ - pyproject.toml -> utils = {path"../utils", develop=true}
+ - poetry shell
+ - poetry install --no-root
+
+Chat Voz
+ - poetry add pydub
+ - poetry add sounddevice
+ - poetry add soundfile
+ - poetry add numpy
