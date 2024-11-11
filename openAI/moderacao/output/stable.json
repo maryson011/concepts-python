@@ -1,0 +1,49 @@
+{
+  "id": "modr-ASMrDxOzmoRtGnGNWkmaMiYIyT7JG",
+  "model": "text-moderation-007",
+  "results": [
+    {
+      "categories": {
+        "harassment": false,
+        "harassment/threatening": true,
+        "hate": false,
+        "hate/threatening": false,
+        "self-harm": false,
+        "self-harm/instructions": false,
+        "self-harm/intent": false,
+        "sexual": false,
+        "sexual/minors": false,
+        "violence": true,
+        "violence/graphic": false,
+        "self-harm": false,
+        "sexual/minors": false,
+        "hate/threatening": false,
+        "violence/graphic": false,
+        "self-harm/intent": false,
+        "self-harm/instructions": false,
+        "harassment/threatening": true
+      },
+      "category_scores": {
+        "harassment": 0.34470534324645996,
+        "harassment/threatening": 0.6705888509750366,
+        "hate": 0.017862778156995773,
+        "hate/threatening": 0.0008788874256424606,
+        "self-harm": 0.0002617170393932611,
+        "self-harm/instructions": 6.566245929207071e-7,
+        "self-harm/intent": 0.00006676374323433265,
+        "sexual": 0.011100223287940025,
+        "sexual/minors": 0.00001080035599443363,
+        "violence": 0.9582662582397461,
+        "violence/graphic": 9.065738595381845e-6,
+        "self-harm": 0.0002617170393932611,
+        "sexual/minors": 0.00001080035599443363,
+        "hate/threatening": 0.0008788874256424606,
+        "violence/graphic": 9.065738595381845e-6,
+        "self-harm/intent": 0.00006676374323433265,
+        "self-harm/instructions": 6.566245929207071e-7,
+        "harassment/threatening": 0.6705888509750366
+      },
+      "flagged": true
+    }
+  ]
+}

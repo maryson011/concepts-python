@@ -32,3 +32,7 @@ API de Chat
  - cd chatgpt-basico
  - poetry shell
  - poetry install --no-root
+
+ Moderação
+  - poetry new moderacao
+  - pyproject.toml -> utils = {path"../utils", develop=true}
