@@ -48,3 +48,14 @@ Chat Voz
  - poetry add sounddevice
  - poetry add soundfile
  - poetry add numpy
+
+Modelos de Imagens
+ - dalle3
+ - poetry new imagens
+ - poetry shell
+ - poetry install --no-root
+ - exit
+ - cd ../utils
+ - poetry shell
+ - poetry add urllib3
+ - deletar arquivo poetry.lock sempre que adicionar novas dependencias

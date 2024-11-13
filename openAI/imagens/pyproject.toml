@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "utils"
+name = "imagens"
 version = "0.1.0"
 description = ""
 authors = ["maryson011 <maryson011@gmail.com>"]
@@ -7,9 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-openai = "^1.54.3"
-python-dotenv = "^1.0.1"
-urllib3 = "^2.2.3"
+utils = {path="../utils", develop=true}
 
 
 [build-system]
