@@ -59,3 +59,7 @@ Modelos de Imagens
  - poetry shell
  - poetry add urllib3
  - deletar arquivo poetry.lock sempre que adicionar novas dependencias
+
+ Embeddings
+  - poetry add numpy
+  - poetry add matplotlib
