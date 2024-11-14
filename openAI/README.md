@@ -63,3 +63,7 @@ Modelos de Imagens
  Embeddings
   - poetry add numpy
   - poetry add matplotlib
+
+Fine tuning
+ - permite alterar modelos da openai com dados propios
+ - fell shot learning

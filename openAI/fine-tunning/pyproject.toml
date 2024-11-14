@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fine-tunning"
+version = "0.1.0"
+description = ""
+authors = ["maryson011 <maryson011@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+utils = {path="../utils", develop=true}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
