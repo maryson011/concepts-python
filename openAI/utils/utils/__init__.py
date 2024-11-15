@@ -1,4 +1,4 @@
-from openai import OpenAI # type: ignore
+from openai import OpenAI, AssistantEventHandler # type: ignore
 from dotenv import load_dotenv # type: ignore
 import os
 
