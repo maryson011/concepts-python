@@ -26,3 +26,4 @@
     - pip install langchain_experimental
         - pip install -U duckduckgo-search
         - pip install wikipedia
+    - pip install beautifulsoup4
